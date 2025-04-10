@@ -100,7 +100,7 @@ function App() {
       
       <div id="Home" className="Intro pt-20 px-4 md:px-8 lg:px-20">
         <div className="Intro-image w-40 h-40 md:w-52 md:h-52 lg:w-64 lg:h-64 rounded-full border-4 border-orange-500 overflow-hidden mx-auto">
-          <img src="./src/assets/Profile Photo.png" alt="Shaunak More" className="w-full h-full object-cover object-[55%_25%]"/>
+          <img src="/assets/Profile Photo.png" alt="Shaunak More" className="w-full h-full object-cover object-[55%_25%]"/>
         </div>
         <div className="Intro-text">
           <h3 className='text-gray-500 text-base md:text-lg'> Hello 👋, My name is Shaunak Sanjay More and I'm a </h3>
@@ -140,7 +140,7 @@ function App() {
             <a href="https://github.com/ShaunakMore/Sync-Jam" className="cursor-pointer block">
               <div className='sync-jam group p-4'>
                 <div className="sync-jam-image m-4 overflow-hidden w-full backdrop-blur-md bg-black/30 border border-white/20 rounded-xl shadow-xl p-2 md:p-4">
-                  <img className="w-full h-[200px] md:h-[250px] object-cover translate-x-3 translate-y-6 rotate-[-9deg] group-hover:translate-y-0 group-hover:translate-x-0 group-hover:rotate-0 transition duration-300" src="./src/assets/Sync-Jam-Room.png" alt="Sync Jam"/>
+                  <img className="w-full h-[200px] md:h-[250px] object-cover translate-x-3 translate-y-6 rotate-[-9deg] group-hover:translate-y-0 group-hover:translate-x-0 group-hover:rotate-0 transition duration-300" src="/assets/Sync-Jam-Room.png" alt="Sync Jam"/>
                 </div>
                 <h1 className='text-2xl md:text-3xl lg:text-4xl text-black font-bold mt-4'>Sync Jam</h1>
                 <h3 className='text-gray-500 text-sm md:text-base'>A web application which allows users to listen to music together with real time sync by creating rooms. No login required 😉. Just share the room link and enjoy music together with your friends or partners 🎉 </h3>
@@ -155,7 +155,7 @@ function App() {
             <a href="https://github.com/ShaunakMore/PharmCity" className="cursor-pointer block">
               <div className="pharm-city p-4 group" >
                 <div className="pharm-city-image m-4 overflow-hidden w-full backdrop-blur-md bg-black/30 border border-white/20 rounded-xl shadow-xl p-2 md:p-4">
-                  <img className="w-full h-[200px] md:h-[250px] object-cover translate-x-3 translate-y-6 rotate-[-9deg] group-hover:translate-y-0 group-hover:translate-x-0 group-hover:rotate-0 transition duration-300" src="./src/assets/Pharm-City.png" alt="Pharm City"/>
+                  <img className="w-full h-[200px] md:h-[250px] object-cover translate-x-3 translate-y-6 rotate-[-9deg] group-hover:translate-y-0 group-hover:translate-x-0 group-hover:rotate-0 transition duration-300" src="/assets/Pharm-City.png" alt="Pharm City"/>
                 </div>
                 <h1 className='text-2xl md:text-3xl lg:text-4xl text-black font-bold mt-4'>Pharm City</h1>
                 <h3 className='text-gray-500 text-sm md:text-base'>A web application that provides a platform for users to find medicine availibility status in the pharmacies in their city. Need some medicine but don't know which pharmacy has it in stock? PharmCity has your back 💪. PharmCity also allows admin login which can be used as to keep track of medicine stocks in your pharmacies 💊.</h3>
