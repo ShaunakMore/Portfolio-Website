@@ -1,0 +1,159 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  background-color: #0A0A0A;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.Navbar-list{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  background-color: black;
+  color: #FFFFFF;
+  padding: 15px;
+  display: none; /* Hidden by default on mobile */
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 30px;
+  max-width: 90%;
+  width: 1000px;
+  border-radius: 50px;
+  z-index: 50;
+}
+
+/* Show navbar only on large screens */
+
+
+.Intro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #FFFFFF;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  gap: 20px;
+  padding: 5% 5% 10% 5%;
+}
+
+.Intro-text{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.Intro-buttons{
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.Intro-image{
+  border-radius: 50%;
+  border: 5px solid #FF8132;
+  background-color: #0A0A0A;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.About-me{
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  background-color: #0a0a0a;
+  border-radius: 50px;
+  gap: 30px;
+  padding: 20px;
+}
+
+.Projects{
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  border-radius: 50px;
+  gap: 30px;
+  padding: 20px;
+}
+
+.Contact{
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  background-color: #0a0a0a;
+  border-radius: 50px;
+  gap: 30px;
+  padding: 20px;
+}
+
+.contact-content{
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Media Queries */
+@media (min-width: 1024px) {
+  .Navbar-list {
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .Intro {
+    padding: 10% 5%;
+  }
+  
+  .About-me-text {
+    grid-template-columns: 1fr;
+  }
+  
+  .Projects-cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .Intro-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .Intro-image {
+    width: 150px;
+    height: 150px;
+  }
+}
