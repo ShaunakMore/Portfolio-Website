@@ -109,7 +109,7 @@ function App() {
         </div>
         <div className="Intro-buttons flex flex-col sm:flex-row flex-wrap justify-center gap-4 w-full mt-6">
           <a href="https://www.github.com/ShaunakMore" target="_blank" rel="noopener noreferrer" className='bg-orange-500 text-white px-6 py-3 rounded-full border-transparent border-[3px] hover:bg-white hover:text-orange-500 hover:border-[3px] hover:border-orange-500 transition duration-200 text-center'>My Projects</a>
-          <a href="./public/Shaunak_More_Resume.pdf" download="Shaunak_More_Resume.pdf" className='bg-orange-500 text-white px-6 py-3 rounded-full border-transparent border-[3px] hover:bg-white hover:text-orange-500 hover:border-[3px] hover:border-orange-500 transition duration-300 text-center'>Download Resume</a>
+          <a href="/Shaunak_More_Resume.pdf" download="Shaunak_More_Resume.pdf" className='bg-orange-500 text-white px-6 py-3 rounded-full border-transparent border-[3px] hover:bg-white hover:text-orange-500 hover:border-[3px] hover:border-orange-500 transition duration-300 text-center'>Download Resume</a>
           <Link to="Contact" className='bg-white text-orange-500 border-[3px] cursor-pointer border-orange-500 px-6 py-3 rounded-full hover:bg-orange-500 hover:text-white hover:border-transparent hover:border-[3px] transition duration-300 text-center'>Email me</Link>
         </div>
         <SocialLinks/>
