@@ -137,17 +137,61 @@ function App() {
         <h1 className='text-3xl md:text-4xl lg:text-5xl pt-20 text-black text-center'>Projects</h1>
         <div className='Projects-cards grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 mt-8 max-w-6xl mx-auto'>
           <FadeInSection>
-            <a href="https://github.com/ShaunakMore/Sync-Jam" className="cursor-pointer block">
-              <div className='sync-jam group p-4'>
-                <div className="sync-jam-image m-4 overflow-hidden w-full backdrop-blur-md bg-black/30 border border-white/20 rounded-xl shadow-xl p-2 md:p-4">
-                  <img className="w-full h-[200px] md:h-[250px] object-cover translate-x-3 translate-y-6 rotate-[-9deg] group-hover:translate-y-0 group-hover:translate-x-0 group-hover:rotate-0 transition duration-300" src="/assets/Sync-Jam-Room.png" alt="Sync Jam"/>
+            <a href="https://research-graph-rag.vercel.app/" className="cursor-pointer block">
+              <div className='research-it group p-4'>
+                <div className="research-it-image m-4 overflow-hidden w-full backdrop-blur-md bg-black/30 border border-white/20 rounded-xl shadow-xl p-2 md:p-4">
+                  <img className="w-full h-[200px] md:h-[250px] object-cover translate-x-3 translate-y-6 rotate-[-9deg] group-hover:translate-y-0 group-hover:translate-x-0 group-hover:rotate-0 transition duration-300" src="/assets/Research-IT.png" alt="Research IT"/>
                 </div>
-                <h1 className='text-2xl md:text-3xl lg:text-4xl text-black font-bold mt-4'>Sync Jam</h1>
-                <h3 className='text-gray-500 text-sm md:text-base'>A web application which allows users to listen to music together with real time sync by creating rooms. No login required 😉. Just share the room link and enjoy music together with your friends or partners 🎉 </h3>
+                <h1 className='text-2xl md:text-3xl lg:text-4xl text-black font-bold mt-4'>Research IT</h1>
+                <h3 className='text-gray-500 text-sm md:text-base'>A web based AI-powered research assistant which uses LLM + RAG + Neo4j Knowledge graphs to answer user queries across multiple research papers uploaded by the user. </h3>
                 <h3 className="text-gray-500 text-lg mt-2">Tech Stack:</h3>
                 <h3 className="text-gray-500 text-sm">Front End: React + Tailwind</h3>
-                <h3 className="text-gray-500 text-sm">Database: Firebase</h3>
-                <h3 className="text-gray-500 text-sm">Back End: Node.js + Express + Socket.io</h3>
+                <h3 className="text-gray-500 text-sm">Database: Pinecone + Neo4j Aura + HF Dataset</h3>
+                <h3 className="text-gray-500 text-sm">Back End: FastAPI</h3>
+              </div>
+            </a>
+          </FadeInSection>
+          <FadeInSection>
+            <a href="https://github.com/ShaunakMore/Galaxy-Morphology-Classification-and-Redshift-Estimation" className="cursor-pointer block">
+              <div className='galaxy-morphology group p-4'>
+                <div className="galaxy-morphology-image m-4 overflow-hidden w-full backdrop-blur-md bg-black/30 border border-white/20 rounded-xl shadow-xl p-2 md:p-4">
+                  <img className="w-full h-[200px] md:h-[250px] object-cover translate-x-3 translate-y-6 rotate-[-9deg] group-hover:translate-y-0 group-hover:translate-x-0 group-hover:rotate-0 transition duration-300" src="/assets/Galaxy-Morphology.png" alt="Galaxy Morphology Classification and Redshift Estimation"/>
+                </div>
+                <h1 className='text-2xl md:text-3xl lg:text-4xl text-black font-bold mt-4'>Galaxy Morphology Classification and Redshift Estimation</h1>
+                <h3 className='text-gray-500 text-sm md:text-base'>A hybrid-architecture deep neural network model for galaxy morphology classification and estimation of their redshift values using only the photometric features. This also has a dashboard which retrieves images from the SDSS API and runs inference on those images. </h3>
+                <h3 className="text-gray-500 text-lg mt-2">Tech Stack:</h3>
+                <h3 className="text-gray-500 text-sm">Training: PyTorch + CUDA</h3>
+                <h3 className="text-gray-500 text-sm">Dataset: SDSS (Sloan Digital Sky Survey)</h3>
+                <h3 className="text-gray-500 text-sm">Dashboard: Python Dash Library</h3>
+              </div>
+            </a>
+          </FadeInSection>
+          <FadeInSection>
+            <a href="https://github.com/ShaunakMore/Vector-DB-from-scratch" className="cursor-pointer block">
+              <div className='shore-db group p-4'>
+                <div className="shore-db-image m-4 overflow-hidden w-full backdrop-blur-md bg-black/30 border border-white/20 rounded-xl shadow-xl p-2 md:p-4">
+                  <img className="w-full h-[200px] md:h-[250px] object-cover translate-x-3 translate-y-6 rotate-[-9deg] group-hover:translate-y-0 group-hover:translate-x-0 group-hover:rotate-0 transition duration-300" src="/assets/Shore-DB.png" alt="Shore DB"/>
+                </div>
+                <h1 className='text-2xl md:text-3xl lg:text-4xl text-black font-bold mt-4'>Shore DB</h1>
+                <h3 className='text-gray-500 text-sm md:text-base'>ShoreDB is designed to be a simple yet powerful vector database that provides fast nearest neighbor search capabilities. Built with performance and ease of use in mind, it's perfect for applications requiring semantic search, recommendation systems, or any scenario where you need to find similar vectors quickly. </h3>
+                <h3 className="text-gray-500 text-lg mt-2">Tech Stack:</h3>
+                <h3 className="text-gray-500 text-sm">Language: C++</h3>
+              </div>
+            </a>
+          </FadeInSection>
+          <FadeInSection>
+            <a href="https://github.com/ShaunakMore/Mini-Genie-Model" className="cursor-pointer block">
+              <div className='mini-genie group p-4'>
+                <div className="mini-genie-image m-4 overflow-hidden w-full backdrop-blur-md bg-black/30 border border-white/20 rounded-xl shadow-xl p-2 md:p-4">
+                  <img className="w-full h-[200px] md:h-[250px] object-cover translate-x-3 translate-y-6 rotate-[-9deg] group-hover:translate-y-0 group-hover:translate-x-0 group-hover:rotate-0 transition duration-300" src="/assets/Mini-Genie.png" alt="Mini Genie World Model"/>
+                </div>
+                <h1 className='text-2xl md:text-3xl lg:text-4xl text-black font-bold mt-4'>Mini Genie World Model</h1>
+                <h3 className='text-gray-500 text-sm md:text-base'>Mini-Genie is a foundational world model that learns the dynamics of an environment to predict future frames based on the current state and a given action. Mini-Genie uses a CNN-Transformer architecture to process visual information and for action-conditioned video frame prediction.</h3>
+                <h3 className="text-gray-500 text-lg mt-2">Tech Stack:</h3>
+                <h3 className="text-gray-500 text-sm">Framework: PyTorch</h3>
+                <h3 className="text-gray-500 text-sm">Data processing: NumPy, Pandas, Torch Dataset</h3>
+                <h3 className="text-gray-500 text-sm">Dataset: OpenAI Gymnasium reinforcement learning environments.</h3>
+
               </div>
             </a>
           </FadeInSection>
@@ -163,6 +207,21 @@ function App() {
                 <h3 className="text-gray-500 text-sm">Front End: EJS + Vanilla CSS</h3>
                 <h3 className="text-gray-500 text-sm">Database: SQL</h3>
                 <h3 className="text-gray-500 text-sm">Back End: Node.js + Express</h3>
+              </div>
+            </a>
+          </FadeInSection>
+          <FadeInSection>
+            <a href="https://github.com/ShaunakMore/Sync-Jam" className="cursor-pointer block">
+              <div className='sync-jam group p-4'>
+                <div className="sync-jam-image m-4 overflow-hidden w-full backdrop-blur-md bg-black/30 border border-white/20 rounded-xl shadow-xl p-2 md:p-4">
+                  <img className="w-full h-[200px] md:h-[250px] object-cover translate-x-3 translate-y-6 rotate-[-9deg] group-hover:translate-y-0 group-hover:translate-x-0 group-hover:rotate-0 transition duration-300" src="/assets/Sync-Jam-Room.png" alt="Sync Jam"/>
+                </div>
+                <h1 className='text-2xl md:text-3xl lg:text-4xl text-black font-bold mt-4'>Sync Jam</h1>
+                <h3 className='text-gray-500 text-sm md:text-base'>A web application which allows users to listen to music together with real time sync by creating rooms. No login required 😉. Just share the room link and enjoy music together with your friends or partners 🎉 </h3>
+                <h3 className="text-gray-500 text-lg mt-2">Tech Stack:</h3>
+                <h3 className="text-gray-500 text-sm">Front End: React + Tailwind</h3>
+                <h3 className="text-gray-500 text-sm">Database: Firebase</h3>
+                <h3 className="text-gray-500 text-sm">Back End: Node.js + Express + Socket.io</h3>
               </div>
             </a>
           </FadeInSection>
