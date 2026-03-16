@@ -105,7 +105,7 @@ function App() {
         <div className="Intro-text">
           <h3 className='text-gray-500 text-base md:text-lg'> Hello 👋, My name is Shaunak Sanjay More and I'm a </h3>
           <h1 className='text-black text-3xl md:text-4xl lg:text-6xl font-bold'> Software Developer</h1>
-          <h3 className='text-gray-500 text-sm md:text-base lg:text-lg'> I turn coffee into code and ideas into software. Every new project is a new adventure for me - sometimes sleek, sometimes scrappy - but always built with dedication and late night debugging marathons</h3>
+          <h3 className='text-gray-500 text-sm py-4 md:text-base lg:text-lg'> I turn coffee into code and ideas into software. Every new project is a new adventure for me - sometimes sleek, sometimes scrappy - but always built with dedication and late night debugging marathons</h3>
         </div>
         <div className="Intro-buttons flex flex-col sm:flex-row flex-wrap justify-center gap-4 w-full mt-6">
           <a href="https://www.github.com/ShaunakMore" target="_blank" rel="noopener noreferrer" className='bg-orange-500 text-white px-6 py-3 rounded-full border-transparent border-[3px] hover:bg-white hover:text-orange-500 hover:border-[3px] hover:border-orange-500 transition duration-200 text-center'>My Projects</a>
