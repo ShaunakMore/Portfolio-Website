@@ -1,6 +1,6 @@
 # Shaunak More - Portfolio Website
 
-![Portfolio Preview](./src/assets/Profile%20Photo.png)
+![Portfolio Preview](./public/assets/Profile-Photo.png)
 
 ## 📋 Overview
 

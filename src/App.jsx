@@ -237,7 +237,7 @@ function App() {
           
           <FadeInSection>
             <div className="text-gray-500 w-full max-w-lg">
-              <h3 className="text-xl md:text-2xl">Contact me for questions, conversation, or just saying hello. Thank you for stopping by here</h3>
+              <h3 className="text-xl md:text-2xl">Contact me for questions, conversation, or just saying hello. Thank you for stopping by here.</h3>
               <h3 className="text-lg mt-4">Mobile No.- 7972285941</h3>
               <h3 className="text-lg">Email- shaunaksmore999@gmail.com</h3>
               <div className="flex gap-4 mt-4">
